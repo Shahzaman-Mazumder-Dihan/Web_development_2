@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    color: aqua;
+}
+#boxid{
+    color: blueviolet;
+}
+.boxclass{
+color: black;
+}
+
+.boxclass,.h6class1{
+    background-color: #FF7F00;
+    color: white;
+   
+}
+.h6class2{
+    background-color: rgb(50, 11, 97);
+    color: white;
+   
+}
+#bimg{
+    background-color: #FF7F00;
+    background-image: url(/images/crying_boy.png);
+    background-size: cover;
+}
+#bimg2{
+    background-image: url(/images/crying_boy.png);
+    background-size: contain;
+}
+#bimg3{
+    background-image: url(/images/crying_boy.png);
+    
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:left top;
+  background-position:right top;
+  background-position:top;
+  background-position:left;
+  background-position:right;
+  background-position:center;
+  background-position:bottom;
+  background-position:left bottom;
+  background-position:right bottom;
+  
+}
+#boxcon{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  /* align-items: center; */
+  border: 20px;
+  border-color: aqua;
+  
+}
+#boxmodel{
+    /* x-offset y-offset blur spreadsize color */
+    box-shadow: 10px 20px 50px 7px rgb(232, 3, 3);
+ 
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    color: rgb(9, 79, 140);
+
+   
+    /* left right center */
+    text-align:center; 
+    /* top bottom center */
+
+    align-content: center; 
+   /* top_left top_right bottom_right bottom_left   clockwise */
+    border-radius: 20% 10% 0% 50%;
+}
+p{
+    color: white;
+}
+#boxi1{ 
+  
+    height: 400px;
+    background-color: #FF7F00;
+    padding: 25px;
+   
+ 
+    
+   
+  
+}
+#boxi2{
+  
+    height:inherit;
+    width: inherit;
+
+
+
+    text-align:center;
+    align-content: center;
+   
+    border:#151413 3px solid;
+    border-radius: 5dvb;
+ 
+
+    background-image: url(/images/crying_boy.png);
+    background-size:cover;
+    background-position: center;
+   
+
+}
